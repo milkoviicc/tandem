@@ -5,8 +5,8 @@ import Register from '../views/register.vue'
 
 const routes = [
   { path: '/', name: 'Landing', component: Landing },
-  { path: '/login', name: 'Login', component: Login },
-  { path: '/register', name: 'Register', component: Register },
+  { path: '/login', name: 'Login', component: Login, meta: { hideNavbar: true} },
+  { path: '/register', name: 'Register', component: Register, meta: { hideNavbar: true}},
 ]
 
 const router = createRouter({
