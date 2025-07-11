@@ -1,6 +1,5 @@
 <script setup lang="ts">
   import { computed, ref, onMounted } from 'vue';
-  import navbar from '../components/Navbar.vue';
 
   const testimonials = [
     {
